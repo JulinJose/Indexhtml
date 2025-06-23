@@ -1,0 +1,48 @@
+/* Set the full-page background image */
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url('background.jpg'); /* replace with your image path */
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  font-family: Arial, sans-serif;
+}
+
+/* Center the login form */
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+/* Style the form */
+.login-form {
+  background: rgba(255, 255, 255, 0.8); /* transparent white background */
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px #000;
+  width: 300px;
+  text-align: center;
+}
+
+.login-form input {
+  display: block;
+  width: 100%;
+  margin: 10px 0;
+  padding: 10px;
+}
+
+.login-form button {
+  padding: 10px;
+  width: 100%;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.login-form button:hover {
+  background-color: #0056b3;
+}
